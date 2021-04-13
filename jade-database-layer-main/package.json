@@ -1,0 +1,19 @@
+{
+  "name": "node_jade",
+  "version": "1.0.0",
+  "description": "Node layer for the JADE project.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Mario Hess",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "mongoose": "^5.11.5",
+    "nodemon": "^2.0.6"
+  }
+}
